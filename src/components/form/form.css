@@ -1,0 +1,49 @@
+.form-container {
+  width: 400px;
+}
+.form {
+  background: #fff;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+.form > h3 {
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+}
+.form-inputs {
+  display: grid;
+  gap: 7px;
+}
+.text-input {
+  height: 40px;
+  outline: none;
+  padding: 2px;
+}
+.text-area {
+  height: 70px;
+  outline: none;
+  padding: 2px;
+}
+.file-base {
+  margin: 9px 0px;
+}
+.submit-btn {
+  width: 100%;
+  color: #fff;
+  background-color: rgb(37, 37, 136);
+  padding: 10px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.clear-btn {
+  width: 100%;
+  color: #fff;
+  background-color: red;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  margin: 7px 0px;
+  cursor: pointer;
+}
